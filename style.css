@@ -1,1 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Share Button */
+.share-button{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 8px 30px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: none;
+}
+
+section{
+
+    background-color: #F7F7F7;
+}
+
+.container{
+    padding: 15px 0px;
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-part{
+    display: flex;
+    align-items: center;
+}
+.topnav > a {
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding-left: 30px;
+}
+.logo-title{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+}
