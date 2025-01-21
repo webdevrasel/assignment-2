@@ -295,7 +295,91 @@ section{
         background-color: black;
     }
 
+    /*  The footer section  Style */
+    .footer-section{
+        background-color: #202020;
+        padding: 60px 0px;
+    }
+    .footer-container{
+        max-width: 1160px;
+    }
+    .footer-container{
+        align-items: start;
+    }
+    /* .footer-column-1 */
+    .footer-column-1{
+        width: 50%;
+    }
+    .footer-logo-part{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-logo-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .logo-icon{
+        width: 15%;
+    }
+    .footer-p{
+    color: rgb(255, 255, 255);
+    padding-right: 150px;
+    padding-top: 20px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
 
+
+/* .footer-column-2 */
+    .footer-column-2{
+        width: 25%;
+    }
+    .footer-sub-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .quick-link> ul li a{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
+        padding-top: 20px;
+    }
+    ul > li{
+        padding-top: 10px;
+    }
+
+
+
+/* .footer-column-3 */
+    .footer-column-3{
+        width: 25%;
+    }
+    .social-icon{
+        padding-top: 20px;
+    }
 
 
 
@@ -381,14 +465,53 @@ section{
         width: 100%;
     }
     .stories-left-part-box{
-    padding: 0px 10px 20px 10px;
+    padding: 0px 20px 20px 20px;
+    }
+    .stories-title{
+        font-size: 10.22px;
+        line-height: 20px;
     }
     .date{
-        font-size: 12.34px;
+        font-size: 10.22px;
     }
     .stories-container{
         padding: 30px 20px;
     }
+/*  The Responsive footer section  Style */
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-container{
+        padding: 0px 20px;
+    }
+    /*responsive footer column-1 */
+    .footer-column-1{
+        width: 100%;
+    }
+    .logo-icon{
+        width: 18%;
+    }
+    .footer-logo-title{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .footer-p {
+        padding-right: 0px;
+    }
+ /*responsive footer column 2 */
+    .footer-column-2{
+        width: 100%;
+        padding-top: 30px;
+    }
+    ul{
+        padding-top: 10px;
+    }
+  /*responsive footer column 3 */
+    .footer-column-3{
+    width: 100%;
+    padding-top: 30px;
+}
+
 /* Responsive Standard Curriculum Section style End*/
 }
 
