@@ -5,6 +5,16 @@
     padding: 0px;
 }
 /* Share style start */
+/* Share title */
+    .head-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
 /* Share Button */
 .share-button{
     color: rgb(255, 255, 255);
@@ -90,9 +100,114 @@ section{
     }
 
 /* banner section style End */
-
-
-
+/* The Curriculum section style Start */
+    .curriculum-section{
+        background-image: url(images/bg.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding: 80px 0px;
+    }
+    .curriculum-container{
+        padding: 40px 0px;
+    }
+    .box-container{
+        gap: 20px;
+    }
+    .curriculum-box{
+        width: 33%;
+        padding: 50px 30px;
+        border-radius: 20px;
+        background: linear-gradient(45turn, #ffffff, #ffffff, #f69c3c14);
+        text-align: center;
+        border: 1px solid #f69c3c23;
+    }
+    .box-2{
+        background: linear-gradient(45turn, #ffffff, #ffffff, #01adfd14);
+        border: 1px solid #01adfd25;
+    }
+    .box-3{
+        background: linear-gradient(45turn, #ffffff, #ffffff, #86b53920);
+        border: 1px solid #86b53946;
+    }
+    .box-img{
+        width: 120px;
+        height: 120px;
+        text-align: center;
+    }
+    .box-title{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    padding-top: 20px;
+    }
+    .box-p{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    padding: 10px 0px;
+    }
+    .box-btn{
+    display: flex;
+    justify-content: center;
+    }
+    .box-btn-1{
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(135, 0, 255);
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    }
+    .box-btn-2{
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(240, 170, 0);
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    }
+    .box-btn-3{
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(100, 200, 255);
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    }
+    /* icon style */
+    .icon-container{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .fa-solid{
+        color: white;
+        font-size: 25px;
+        padding: 15px;
+        background-color: #FEA301;
+        border-radius: 100%;
+    }
+    .icon-1{
+        rotate: 90deg;
+    }
+    .icon-2{
+        rotate: -90deg;
+    }
 
 
 
@@ -115,7 +230,13 @@ section{
     .header-section{
         border-bottom: 1px solid rgb(254, 163, 1);
     }
-/* Responsive Banner section style start */
+    /* Responsive Banner section style start */
+    /* Share title start */
+    .head-title {
+    font-size: 30px;
+    line-height: 40px;
+    }
+    /* Share title end */
     .banner-container{
         flex-direction: column;
         flex-direction: column-reverse;
@@ -148,6 +269,18 @@ section{
         display: flex;
         justify-content: center;
     }
+    /* Responsive Standard Curriculum Section style start */
+    .box-container{
+        flex-direction: column;
+    }
+    .curriculum-box{
+        width: 100%;
+    }
+    .curriculum-section{
+        padding: 50px 10px;
+    }
+/* Responsive Standard Curriculum Section style End*/
+
+
 }
-/* Responsive header Section End  */
 
