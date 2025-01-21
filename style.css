@@ -382,7 +382,15 @@ section{
     }
 
 
-
+.headline{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 
 
