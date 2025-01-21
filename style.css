@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
 }
+/* Share style start */
 /* Share Button */
 .share-button{
     color: rgb(255, 255, 255);
@@ -16,12 +17,11 @@
     background: rgb(254, 163, 1);
     border: none;
 }
-
+/* Share style End */
+/* header Section Start  */
 section{
-
     background-color: #F7F7F7;
 }
-
 .container{
     padding: 15px 0px;
     max-width: 1160px;
@@ -30,12 +30,11 @@ section{
     justify-content: space-between;
     align-items: center;
 }
-
 .logo-part{
     display: flex;
     align-items: center;
 }
-.topnav > a {
+.topnav > a{
     text-decoration: none;
     font-family: Quicksand;
     font-size: 20px;
@@ -51,3 +50,104 @@ section{
     font-weight: 700;
     line-height: 30px;
 }
+.fa-bars{
+    font-size: 40px;
+    display: none;
+}
+.menu{
+    display: none;
+}
+/* header Section End  */
+
+/* Banner section style start */
+/* Banner content part style */
+    .banner-section{
+        background-color: #ffffff;
+        padding: 50px 0px;
+    }
+    .banner-container{
+        gap: 120px;
+    }
+    .banner-title{
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .banner-p{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding: 25px 0px;
+    }
+    .banner-btn{
+        background-color: black;
+    }
+
+/* banner section style End */
+
+
+
+
+
+
+/* Responsive style */
+
+/* responsive header Section start */
+@media only screen and (max-width: 576px) {
+    .menu{
+        display: block;
+    }
+    .topnav{
+        display: none;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .container{
+        padding: 10px 20px;
+    }
+    .header-section{
+        border-bottom: 1px solid rgb(254, 163, 1);
+    }
+/* Responsive Banner section style start */
+    .banner-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .banner-container{
+        gap: 30px;
+    }
+    .banner-section {
+        padding: 40px 0px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-title{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%; 
+    text-align: center;
+    }
+    .banner-p{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .banner-btn{
+        align-items: center;
+    }
+    .banner-b{
+        display: flex;
+        justify-content: center;
+    }
+}
+/* Responsive header Section End  */
+
