@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -209,10 +211,99 @@ section{
         rotate: -90deg;
     }
 
+    /* style Our Stories section */
+    .stories-section{
+        background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(254, 163, 1, 0.3));
+
+    }
+    .overlay-img{
+        background-image: url(images/bg.png);
+        background-position: center;
+        padding: 80px 0px;
+    }
+    .stories-img{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .stories-container{
+        gap: 20px;
+        align-items: start;
+        padding: 50px 0px;
+    }
+    .stories-left-part{
+        width: 45%;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .date{
+        background-color: #95B226;
+        display: inline;
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 15.34px;
+        font-weight: 500;
+        line-height: 28.76px;
+        letter-spacing: 0%;
+        padding: 8px 12px;
+        border-radius: 200px;
+    }
+    .date-title{
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38.35px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-top: 40px;
+    }
+    .stories-p{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .stories-left-part-box{
+        background-color: white;
+        border-radius: 0px 0px 10px 10px;
+        padding: 0px 40px 30px 40px;
+        margin-top: -20px;
+    }
+    .date-color-1{
+        background-color: #3CD8E8;
+    }
+
+    /* .stories-right-part */
+    .stories-right-part{
+        width: 55%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .stories-title{
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 15.34px;
+        font-weight: 700;
+        line-height: 23.76px;
+        letter-spacing: 0%;
+        padding-top: 20px;
+    }
+    .date-color-2{
+        background-color: #5D58F0;
+    }
+    .stories-btn{
+        padding: 10px 40px;
+        background-color: black;
+    }
+
+
+
+
+
+
+
 
 
 /* Responsive style */
-
 /* responsive header Section start */
 @media only screen and (max-width: 576px) {
     .menu{
@@ -279,8 +370,25 @@ section{
     .curriculum-section{
         padding: 50px 10px;
     }
+ /* responsive style Our Stories section */
+    .stories-container{
+        flex-direction: column;
+    }
+    .stories-left-part{
+        display: none;
+    }
+    .stories-right-part{
+        width: 100%;
+    }
+    .stories-left-part-box{
+    padding: 0px 10px 20px 10px;
+    }
+    .date{
+        font-size: 12.34px;
+    }
+    .stories-container{
+        padding: 30px 20px;
+    }
 /* Responsive Standard Curriculum Section style End*/
-
-
 }
 
